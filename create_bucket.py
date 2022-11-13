@@ -1,6 +1,4 @@
 import logging
-from os import access
-from unittest import result
 import boto3
 from botocore.exceptions import ClientError
 
