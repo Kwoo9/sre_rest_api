@@ -4,6 +4,8 @@ from botocore.exceptions import ClientError
 import json
 import os
 
+#LOCALSTACK_ENDPOINT_URL = 'http://localhost:4566'
+
 AWS_REGION = 'us-east-1'
 AWS_PROFILE = 'localstack'
 ENDPOINT_URL = os.environ.get('LOCALSTACK_ENDPOINT_URL')
